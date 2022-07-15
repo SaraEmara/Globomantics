@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>
+            welcome to first html dynamic page  <%=title%> 
+        </h1>
+        <ul>
+            <% 
+            arrData.map((i)=>{
+                %><li><%=i%></li><% 
+            })
+            %>
+        </ul>
+    </body>
+</html>
